@@ -1,0 +1,8 @@
+postgre - root
+mysql   - root2022 
+
+nest generate module anuny
+nest generate service anuny
+nest generate controller anuny 
+
+

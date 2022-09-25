@@ -1,0 +1,12 @@
+.sequelizerc file in the root folder. Add the following code.
+
+const path = require('path');
+module.exports = {
+   'seeders-path': path.resolve('src/database', 'seeders'),
+   'migrations-path': path.resolve('src/database', 'migrations'),
+   'config': path.resolve('src/database', 'config.ts'),
+}
+
+
+
+npx sequelize-cli migration:generate --name create-user

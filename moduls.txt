@@ -1,0 +1,8 @@
+npm i cross-env
+npm i @nestjs/config
+npm i @nestjs/swagger swagger-ui-express
+npm i @nestjs/jwt bcryptjs
+npm i class-validator class-transformer
+npm install --save @nestjs/serve-static
+
+
